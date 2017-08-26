@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>  
+</head>
+<body>
+   <!-- 下拉菜单2 -->
+   <div class="row" style="height:200px;">
+    <div class="col-lg-4">
+        <div class="dropdown open">
+            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                Dropdown
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li><a href="#">Separated link</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="dropdown open pull-right">
+            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                Dropdown
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li><a href="#">Separated link</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="dropdown open">
+            <button class="btn btn-default btn-block dropdown-toggle" type="button" data-toggle="dropdown">
+                Dropdown
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-right">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li><a href="#">Separated link</a></li>
+            </ul>
+        </div>
+    </div>
+</div>    
+<script src="./js/jquery-3.2.1.min.js"></script>
+<script src="./js/bootstrap.js"></script>
+<script>
+    $('.dropdown-toggle').dropdown();
+</script>
+</body>
+</html>
